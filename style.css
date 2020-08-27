@@ -1,0 +1,86 @@
+html {
+	margin:	0% 10%;
+}
+
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+li {
+	list-style: none;
+	display: inline-flex;
+	padding: 0px 10px;
+}
+
+.header {
+	background-color: black;
+	font-size: 80px;
+	color: green;
+	text-shadow: 2px 1px black;
+	margin: 0px;
+}
+
+.body {
+	margin: 0% 17%;
+}
+
+.featured {
+	display: flex;
+
+}
+
+.title {
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+.category {
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	color: orange;
+	box-shadow: 3px 3px black;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 28px;
+	font-stretch: expanded;
+	font-style: oblique;
+	min-width: 250px;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.weapon_box {
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px grey; 
+	margin: 10px;
+	max-width: 25%;
+	min-width: 250px;
+	padding: 15px;
+}
+
+.weapon_img {
+	border: 2px solid yellow;
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+.box {
+	margin-top: 20px;
+}
+
+
